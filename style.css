@@ -1,0 +1,27 @@
+header {
+   background-color: #3f3697
+}
+
+header h1 {
+  color: #f0ebcc;
+  text-align: center;
+  font-size: 60px;
+}
+
+header nav ul li  {
+   display: inline-block;
+   margin-left: 50px;
+   font-size: 25px;
+
+}
+
+
+header nav ul li a {
+   color: #f0ebcc;
+   text-decoration: none;
+}
+
+
+footer p {
+  text-align: center;
+}
