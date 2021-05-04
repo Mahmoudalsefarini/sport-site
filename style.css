@@ -1,58 +1,40 @@
 header {
    background-color: #3f3697
 }
-
 header h1 {
   color: #f0ebcc;
   text-align: center;
-<<<<<<< HEAD
   font-size: 100px;
-=======
-  font-size: 60px;
->>>>>>> 187bd1024596e44a0966b546df71ecaf363d1a4b
+  font-style: italic;
 }
-
 header nav ul li  {
    display: inline-block;
    margin-left: 50px;
    font-size: 25px;
-<<<<<<< HEAD
    border: 1px solid #f0ebcc;
    padding-bottom: 20px;
    padding-top: 20px;
-
-=======
->>>>>>> 187bd1024596e44a0966b546df71ecaf363d1a4b
-
 }
-
-
 header nav ul li a {
    color: #f0ebcc;
    text-decoration: none;
 }
-
-<<<<<<< HEAD
 section div h3 {
 font-size: 50px;
 text-align: center;
 }
-
 section div img {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 footer p {
   text-align: center;
   background-color: #3f3697;
   color: #f0ebcc;
-
-
-=======
-
-footer p {
-  text-align: center;
->>>>>>> 187bd1024596e44a0966b546df71ecaf363d1a4b
 }
