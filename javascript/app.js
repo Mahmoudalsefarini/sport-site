@@ -1,22 +1,29 @@
+
 var user = prompt('Whats your name?')
 
-alert('lets Go');
+alert('Welcome to your Sport Site');
 
 
 var sport = prompt('Whats your favourite sport?')
 
 alert('lets Go');
 
-if(sport === 'snowboarding'){
- window.location = "https://www.youtube.com/watch?v=t705_V-RDcQ";
-}else if(sport === 'japanese sword game'){
-  window.location = 'https://www.youtube.com/watch?v=8o5Y1OLXPh0'
+while (sport !== 'snowboarding' && sport !== 'soccer' && sport !== 'japanese sword game')
+ {
+   sport = prompt('Try again , With snowboarding or soccer or japanese sword game')}
+
+
+var sportYears = prompt('Since How many years you follow this game?')
+var motivationWord = ''
+for(var i = 1; i <= sportYears ;i++){
+  if(sport ==='snowboarding'){
+    motivationWord = motivationWord + '<h2>When you don’t give up, you cannot fail.</h2>'  + ' count = '  + i  + '<img src="https://mahmoudalsefarini.github.io/sport-site/sergey-mikheev-EIniaP1qCRs-unsplash.jpg" width="400px" height="400px">'
+   
+  }else if(sport ==='soccer'){
+    motivationWord = motivationWord + '<h2>You cannot make progress with excuses.</h2>' + 'count = ' + i + '<img src="https://mahmoudalsefarini.github.io/sport-site/md-mahdi-lQpFRPrepQ8-unsplash.jpg" width="400px" height="400px">'
   }
-  else if(sport === 'soccer'){
-    window.location = 'https://www.youtube.com/watch?v=L4aBqvbP_MM'
-}
-else {
-  alert('okay you should only pick snowboarding or japanese sword game or soccer')
-}
+  else if(sport ==='japanese sword game'){
+    motivationWord = motivationWord + '<h2>There are no shortcuts—everything is reps, reps, reps.</h2>' + 'count = ' + i + '<img src="https://mahmoudalsefarini.github.io/sport-site/bernd-viefhues-KO3ywBQo5IU-unsplash.jpg" width="400px" height="400px">'
+  }}
 
-
+  document.write(motivationWord)
